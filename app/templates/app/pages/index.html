@@ -11,16 +11,10 @@
 <p class="text-green-900"> This is a simple example of a Django app. </p>
 <p class="text-blue-900 text-4xl"> This is a simple example of a Django app. </p>
 
-<div hx-swap="outerHTML">
-    <button hx-swap="outerHTML" hx-target="#div1">Mostrar Div 1</button>
-    <button hx-swap="outerHTML" hx-target="#div2">Mostrar Div 2</button>
-  </div>
-  
-  <div id="div1">
-    Este é o conteúdo da Div 1.
-  </div>
-  
-  <div id="div2" hidden>
-    Este é o conteúdo da Div 2.
-  </div>
+<button class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded" hx-post="https://httpbin.org/post" hx-swap="outerHTML" hx-target="#meuDiv">Alterar Texto</button>
+
+<div id="meuDiv">
+  Clique no botão para alterar este texto.
+</div>
+
 {% endblock %}
