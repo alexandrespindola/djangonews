@@ -10,4 +10,17 @@
 <p class="text-red-900"> This is a simple example of a Django app. </p>
 <p class="text-green-900"> This is a simple example of a Django app. </p>
 <p class="text-blue-900 text-4xl"> This is a simple example of a Django app. </p>
+
+<div hx-swap="outerHTML">
+    <button hx-swap="outerHTML" hx-target="#div1">Mostrar Div 1</button>
+    <button hx-swap="outerHTML" hx-target="#div2">Mostrar Div 2</button>
+  </div>
+  
+  <div id="div1">
+    Este é o conteúdo da Div 1.
+  </div>
+  
+  <div id="div2" hidden>
+    Este é o conteúdo da Div 2.
+  </div>
 {% endblock %}
