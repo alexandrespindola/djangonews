@@ -1,0 +1,7 @@
+services:
+  - type: web
+    name: djangonews
+    env: python
+    buildCommand: "pip install -r requirements.txt && npm install"
+    startCommand: "gunicorn djangonews.wsgi:application"
+    healthCheckPath: /
