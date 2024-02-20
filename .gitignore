@@ -5,3 +5,10 @@ logs/
 .DS_Store
 *.gz
 supabase/
+staticfiles/**/main.scss
+staticfiles/**/main.*.scss
+staticfiles/**/main.*.css
+staticfiles/**/style.*.scss
+staticfiles/**/style.*.css
+staticfiles/**/tailwind.*.scss
+staticfiles/**/tailwind.*.css
