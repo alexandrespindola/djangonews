@@ -3,6 +3,12 @@ h1 {
   background-color: #ff0000;
   padding: 10rem;
 }
+
+h2 {
+  color: #00ff00;
+  background-color: #0000ff;
+  padding: 2rem;
+}
 /*
 ! tailwindcss v3.4.1 | MIT License | https://tailwindcss.com
 */
@@ -581,6 +587,11 @@ video {
   line-height: 2.5rem;
 }
 
+.text-6xl {
+  font-size: 3.75rem;
+  line-height: 1;
+}
+
 .text-8xl {
   font-size: 6rem;
   line-height: 1;
@@ -676,4 +687,64 @@ video {
     --tw-bg-opacity: 1;
 
     background-color: rgb(21 128 61 / var(--tw-bg-opacity))
+}
+
+.button-success {
+
+    border-radius: 0.25rem;
+
+    --tw-bg-opacity: 1;
+
+    background-color: rgb(34 197 94 / var(--tw-bg-opacity));
+
+    padding-top: 0.5rem;
+
+    padding-bottom: 0.5rem;
+
+    padding-left: 1rem;
+
+    padding-right: 1rem;
+
+    font-weight: 700;
+
+    --tw-text-opacity: 1;
+
+    color: rgb(255 255 255 / var(--tw-text-opacity))
+}
+
+.button-success:hover {
+
+    --tw-bg-opacity: 1;
+
+    background-color: rgb(21 128 61 / var(--tw-bg-opacity))
+}
+
+.button-info {
+
+    border-radius: 0.25rem;
+
+    --tw-bg-opacity: 1;
+
+    background-color: rgb(234 179 8 / var(--tw-bg-opacity));
+
+    padding-top: 0.5rem;
+
+    padding-bottom: 0.5rem;
+
+    padding-left: 1rem;
+
+    padding-right: 1rem;
+
+    font-weight: 700;
+
+    --tw-text-opacity: 1;
+
+    color: rgb(255 255 255 / var(--tw-text-opacity))
+}
+
+.button-info:hover {
+
+    --tw-bg-opacity: 1;
+
+    background-color: rgb(161 98 7 / var(--tw-bg-opacity))
 }
