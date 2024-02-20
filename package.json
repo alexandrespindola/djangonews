@@ -5,7 +5,9 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build:css": "npx tailwindcss -i app/static/app/assets/css/tailwind.scss -o app/static/app/assets/css/tailwind.css"
+    "build:css": "npx tailwindcss -i app/static/app/assets/css/tailwind.scss -o app/static/app/assets/css/tailwind.css",
+    "build:custom": "postcss app/static/app/assets/css/custom/custom.css -o app/static/app/assets/css/custom/custom.output.css"
+
   },
   "keywords": [],
   "author": "",

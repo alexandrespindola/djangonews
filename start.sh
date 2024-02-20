@@ -4,15 +4,16 @@ sass --no-source-map app/static/app/assets/css/main.scss:app/static/app/assets/c
 
 # Compilar Tailwind
 npm run build:css
+npm run build:custom
 
 # Combinar arquivos CSS
-cat app/static/app/assets/css/main.css app/static/app/assets/css/tailwind.css | postcss -o app/static/app/assets/css/style.css
+cat app/static/app/assets/css/main.css app/static/app/assets/css/tailwind.css app/static/app/assets/css/custom/custom.output.css | postcss -o app/static/app/assets/css/style.css
 
 # Coletar arquivos estáticos
-python manage.py collectstatic --noinput
+python3 manage.py collectstatic --noinput
 
 # Iniciar o servidor de desenvolvimento
-python manage.py runserver
+python3 manage.py runserver
 
 # while true; do
 #     npm run build:css

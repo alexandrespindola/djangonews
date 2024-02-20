@@ -1,0 +1,1 @@
+    "build:css": "npx tailwindcss -i app/static/app/assets/css/tailwind.scss -o app/static/app/assets/css/tailwind.css"
