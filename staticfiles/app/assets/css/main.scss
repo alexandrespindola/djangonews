@@ -1,7 +1,7 @@
-@import 'base/base.scss';
+@import 'variables/variables.scss';
 
 h1 {
-    color: yellow;
-    background-color: blue;
-    padding: 10rem;
+    color: $primary-color;
+    background-color: $secondary-color;
+    padding: 5rem;
 }

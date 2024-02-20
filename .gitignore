@@ -5,7 +5,4 @@ logs/
 .DS_Store
 .gz
 .css.gz
-main.*.css
-main.*.css.gz
-.gz
 supabase/
