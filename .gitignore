@@ -25,3 +25,7 @@ staticfiles/**/tailwind.css
 staticfiles/**/_variables.*.scss
 staticfiles/**/_variables.*.css
 staticfiles/**/_variables.scss
+staticfiles/**/custom.css
+staticfiles/**/custom.scss
+staticfiles/**/custom.*.css
+staticfiles/**/custom.*.scss
