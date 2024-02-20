@@ -5,6 +5,8 @@ logs/
 .DS_Store
 *.gz
 supabase/
+staticfiles/**/main.css
+staticfiles/**/main.css.map
 staticfiles/**/main.scss
 staticfiles/**/main.*.scss
 staticfiles/**/base.scss
