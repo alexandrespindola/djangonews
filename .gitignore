@@ -9,4 +9,7 @@ supabase/
 staticfiles/**/*.scss
 staticfiles/**/*.css
 staticfiles/**/*.css.map
+staticfiles/**/*.*.scss
+staticfiles/**/*.*.css
+staticfiles/**/*.*.css.map
 !staticfiles/**/style.css
