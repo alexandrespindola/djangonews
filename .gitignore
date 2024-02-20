@@ -1,11 +1,15 @@
-.env
+ __pycache__/ 
+ *py.[cod]
+ venv/
+ *.log
+ .idea/
+ .env
 npm-debug.log
 logs/
 .sass-cache/
 .DS_Store
 *.gz
 supabase/
-
 staticfiles/**/*.scss
 staticfiles/**/*.css
 staticfiles/**/*.css.map
