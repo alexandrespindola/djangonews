@@ -14,7 +14,14 @@ This is a news application built with Django, designed to exercise various web d
 
 1. Clone the repository.
 2. Install the dependencies with `pip install -r requirements.txt` and `npm install`.
-3. Run the Django server with `python manage.py runserver`.
+3. Run the `start.sh` script to compile Sass and Tailwind CSS, combine CSS files, collect static files, and start the Django server:
+
+   ```bash
+   ./start.sh
+   ```
+
+   If you get a permission error, you may need to make the script executable with `chmod +x start.sh`.
+
 4. Visit `localhost:8000` in your web browser to see the application in action.
 
 ## Contributing
