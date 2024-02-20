@@ -1,19 +1,39 @@
- __pycache__/ 
- *py.[cod]
- venv/
- *.log
- .idea/
- .env
-npm-debug.log
+# Python
+__pycache__/
+*.py[cod]
+venv/
+
+# Logs
+*.log
 logs/
+
+# IDEs
+.idea/
+
+# Environment
+.env
+
+# Node
+node_modules/
+npm-debug.log
+
+# Sass
 .sass-cache/
+
+# System files
 .DS_Store
 *.gz
+
+# Supabase
 supabase/
+
+# Static files
 staticfiles/**/*.scss
 staticfiles/**/*.css
 staticfiles/**/*.css.map
 staticfiles/**/*.*.scss
 staticfiles/**/*.*.css
 staticfiles/**/*.*.css.map
+
+# Exceptions
 !staticfiles/**/style.css
