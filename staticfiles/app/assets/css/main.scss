@@ -1,0 +1,16 @@
+@import 'base/base_main.scss';
+@import 'variables/variables.scss';
+
+
+h1 {
+    color: $primary-color;
+    background-color: $secondary-color;
+    padding: 10rem;
+}
+
+h2 {
+    color: $tertiary-color;
+    background-color: $quaternary-color;
+    padding: 2rem;
+}
+
